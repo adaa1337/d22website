@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def getIndex():
-  return "Hi!"
+  return "Heooo!"
 
 @app.route('/home')
 def getHome():
